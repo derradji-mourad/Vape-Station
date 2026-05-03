@@ -1,0 +1,141 @@
+﻿[36mvite v7.3.1 [32mbuilding client environment for production...[36m[39m
+transforming...
+[32mÔ£ô[39m 4 modules transformed.
+node.exe : 
+[31mÔ£ù[39m Build 
+failed in 361ms
+Au caractère 
+C:\Program Files\node
+js\npx.ps1:29 : 3
++   & $NODE_EXE 
+$NPX_CLI_JS $args
++   ~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~
+    + CategoryInfo   
+           : NotSpe  
+  cified: ([31mÔ£   
+ ù[39m Build fai    
+led in 361ms:Str    
+ing) [], RemoteE    
+xception
+    + FullyQualified 
+   ErrorId : Native  
+  CommandError
+ 
+[31merror during 
+build:
+[31m[vite]: Rollup 
+failed to resolve 
+import "@/components/
+ui/toaster" from "C:/
+Users/moura/Downloads
+/glowy-vape-dreams-5e
+6e2305-main/glowy-vap
+e-dreams-5e6e2305-mai
+n/vape-station-admin/
+src/App.tsx".
+This is most likely 
+unintended because 
+it can break your 
+application at 
+runtime.
+If you do want to 
+externalize this 
+module explicitly 
+add it to
+`build.rollupOptions.
+external`[31m
+    at viteLog (file:
+///C:/Users/moura/Dow
+nloads/glowy-vape-dre
+ams-5e6e2305-main/glo
+wy-vape-dreams-5e6e23
+05-main/vape-station-
+admin/node_modules/vi
+te/dist/node/chunks/c
+onfig.js:33635:57)
+    at file:///C:/Use
+rs/moura/Downloads/gl
+owy-vape-dreams-5e6e2
+305-main/glowy-vape-d
+reams-5e6e2305-main/v
+ape-station-admin/nod
+e_modules/vite/dist/n
+ode/chunks/config.js:
+33669:73
+    at onwarn (file:/
+//C:/Users/moura/Down
+loads/glowy-vape-drea
+ms-5e6e2305-main/glow
+y-vape-dreams-5e6e230
+5-main/vape-station-a
+dmin/node_modules/@vi
+tejs/plugin-react/dis
+t/index.js:76:7)
+    at file:///C:/Use
+rs/moura/Downloads/gl
+owy-vape-dreams-5e6e2
+305-main/glowy-vape-d
+reams-5e6e2305-main/v
+ape-station-admin/nod
+e_modules/vite/dist/n
+ode/chunks/config.js:
+33669:28
+    at onRollupLog (f
+ile:///C:/Users/moura
+/Downloads/glowy-vape
+-dreams-5e6e2305-main
+/glowy-vape-dreams-5e
+6e2305-main/vape-stat
+ion-admin/node_module
+s/vite/dist/node/chun
+ks/config.js:33664:63
+)
+    at onLog (file://
+/C:/Users/moura/Downl
+oads/glowy-vape-dream
+s-5e6e2305-main/glowy
+-vape-dreams-5e6e2305
+-main/vape-station-ad
+min/node_modules/vite
+/dist/node/chunks/con
+fig.js:33467:4)
+    at file:///C:/Use
+rs/moura/Downloads/gl
+owy-vape-dreams-5e6e2
+305-main/glowy-vape-d
+reams-5e6e2305-main/v
+ape-station-admin/nod
+e_modules/rollup/dist
+/es/shared/node-entry
+.js:21037:32
+    at Object.logger 
+[as onLog] (file:///C
+:/Users/moura/Downloa
+ds/glowy-vape-dreams-
+5e6e2305-main/glowy-v
+ape-dreams-5e6e2305-m
+ain/vape-station-admi
+n/node_modules/rollup
+/dist/es/shared/node-
+entry.js:22924:9)
+    at ModuleLoader.h
+andleInvalidResolvedI
+d (file:///C:/Users/m
+oura/Downloads/glowy-
+vape-dreams-5e6e2305-
+main/glowy-vape-dream
+s-5e6e2305-main/vape-
+station-admin/node_mo
+dules/rollup/dist/es/
+shared/node-entry.js:
+21668:26)
+    at file:///C:/Use
+rs/moura/Downloads/gl
+owy-vape-dreams-5e6e2
+305-main/glowy-vape-d
+reams-5e6e2305-main/v
+ape-station-admin/nod
+e_modules/rollup/dist
+/es/shared/node-entry
+.js:21626:26[39m
